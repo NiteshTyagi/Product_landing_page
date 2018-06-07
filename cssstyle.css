@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+text-decoration: none;
+}
+
+#header{
+    width:100%;
+    height:10vw;
+    background-image: url(https://c.wallhere.com/photos/8a/31/blurry_colorful_shadows_light-739943.jpg!d);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+#header-img{
+    width:25vw;
+    height:8vw;
+    background-color: red;
+    margin:1vw 0 0 1vw;
+    border-radius: 75px;
+    position: relative;
+}
+
+#nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:6vw;
+    right: 0.1vw;
+}
+li{
+    display: inline;
+    background-color:grey;
+    font-size:2.1vw;
+    margin: 1.5vw;
+    padding:1vw;
+    border-radius: 50%;
+}
+.nav-link{
+    text-decoration: none;
+}
+li:hover{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTnvoBk1r5YssC9WqIwXQip8Sz9fQYozQFmBfMhN8eyEG5G0kjg);
+    border: 2px solid white;
+}
+#desc{
+    background-image: url(https://www.wallpaperflare.com/static/115/1013/91/spots-background-light-blur-wallpaper.jpg);
+    border-radius:30px;
+    background-size: cover;
+}
+
+.feature-section{
+    display: flex;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMbZrV7puQOiNPj1EX8zjKAzeswXLrF7uEOAd5rTcA_Y1rEzW5);
+    border-radius: 30px; 
+    flex-wrap: wrap;
+    margin:1vw 1vw 0 1vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feature-section > img{
+  margin: 20px;
+  padding: 25px;
+    max-width:250px;
+    max-height: 220px; 
+}
+#description{
+    margin:2vw 1vw 0 2vw; 
+}
+.strong1{
+    font-size: 18px;
+}
+#video > iframe{
+    margin-left:2vw;
+    border-radius: 20px;
+    width:30vw;
+    height:28vw;
+}
+#info{
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin-top: 2vw;
+    max-width:100% : 
+}
+#info > div{
+  background-color: #f1f1f1;
+  margin: 27px;
+  padding: 2px;   
+ border: 2px solid red;
+    border-radius: 20px;
+     
+}
+.strong2{
+    margin-left: 50px;
+    color: blueviolet;
+    font-size: 20px;
+}
+footer{
+    background-color: beige;
+    margin-top: 2vw;
+}
+#query{
+    margin-top: 2vw;
+}
+#query>form{
+    text-align: center;
+    font-size: 20px;
+}
+input[type=email]{
+    width:25vw;
+    padding: 1vw;
+}
+
+button{
+    background-color: greenyellow;
+    border-radius: 10px;
+    cursor:pointer;
+    width:8vw;
+    height: 3vw;
+    outline: none;
+    margin-left:10vw;    
+}
+.footer-item{
+    float: right;
+    margin:5px 45px 0 0;
+    font-size: 20px; 
+}
+imp{
+margin-left: 72.5vw;
+    font-size: 1.8vw;
+}
+@media only screen and (max-width: 600px)
+{
+    #header{
+    width:100%;
+    height:auto;
+    background-color: darkseagreen;
+    border-radius: 30px;
+    } 
+}
